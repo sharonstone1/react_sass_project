@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@500&display=swap");
+
+// font family
+$ubuntu-font: "Ubuntu", sans-serif;
+$font-family: "Ubuntu", sans-serif;
+
+//background color
+$bg-back-light: rgb(63, 51, 132);
+$bg-back: rgb(0, 0, 0);
+$bg-light: rgb(229, 229, 229);
+
+// $color-primary: #ffffff00;
+// $color-primary-light: #ffffff7f;
+// $color-primary-dark: #e6e6fa;
+//color
+$color-primary: rgba(0, 0, 255, 0.8);
+$color-primary-light: rgba(0, 0, 128, 0.8);
+$color-primary-dark: rgba(0, 0, 128, 1);
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #777;
+
+$color-grey-light-1: #f7f7f7;
+
+//images
+$img: url(../../images/mumsydney.jpg);
+
+// linear-gradient
+$bg-linear-gradient: linear-gradient(
+  to right bottom,
+  $color-primary,
+  $color-primary-light
+);
+
+//height
