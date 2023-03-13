@@ -22,7 +22,7 @@ const Header = () => {
         </h1>
 
         <a href="#" className="btn__btn_white__btn_animated">
-          Dicover our Coding Tours
+          Dicover my Coding Tours
         </a>
       </div>
     </header>
