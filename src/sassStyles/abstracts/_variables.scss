@@ -14,14 +14,88 @@ $bg-light: rgb(229, 229, 229);
 // $color-primary-light: #ffffff7f;
 // $color-primary-dark: #e6e6fa;
 //color
+$color-gost-white: rgb(248, 248, 255);
+$color-white-smoke: rgb(245, 245, 245);
+$color-dutch-white: rgb(239, 223, 187);
+$color-vanilla-white: rgba(243, 229, 171, 0.8);
+$color-flax-white: rgb(238, 220, 130);
+$color-navajo-white: rgb(255, 222, 173);
+$color-chiffon-white: rgb(255, 250, 205);
+$olor-rose-white: rbg(255, 250, 250);
+$color-baby-powder-white: rgb(254, 254, 250);
+$color-snow-white: rgb(245, 254, 253);
 $color-primary: rgba(0, 0, 255, 0.8);
-$color-primary-light: rgba(0, 0, 128, 0.8);
+$color-primary-light: rgba(0, 0, 128, 1);
 $color-primary-dark: rgba(0, 0, 128, 1);
+$color-green-light: #7ed56f;
+$color-green-dark: #28b485;
+$color-forest-green: rgb(11, 102, 35);
+$color-olive-green: rgb(112, 130, 56);
+$color-hunter-green: rgb(63, 112, 77);
+$color-artichoke-green: rgb(143, 151, 121);
+$color-tropical-rainforest-green: rgb(0, 117, 94);
+$color-amazon-green: rgb(59, 122, 87);
+$color-jungle-green: rgb(41, 171, 135);
+$color-deep-jungle-green: rgb(0, 75, 73);
+$color-medium-jungle-green: rgb(28, 53, 45);
+$color-dark-jungle-green: rgb(26, 36, 33);
+$color-pine-green: rgb(1, 121, 111);
+$color-green: #55c57a;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff8000;
+$color-tertiary-light: #cd3700;
+$color-tertiary-dark: #c83200;
+$color-cyber-yellow: #fdc500;
+$color-black-primary: rgba(0, 0, 0, 0.8);
+$color-yellow-primary: rgba(255, 255, 0, 0.8);
+$color-blue-light: #4682b4;
+$color-carolina-blue: #00a8e8;
+$color-oxford-blue: #14213d;
+$color-prussian-blue: #023047;
+$color-blue-medium-light: #3d59ab;
+$color-blue-dark: #191970;
+$color-candy-pink: #b56576;
+$color-rose-desert: #e56b6f;
+$color-paradise-pink: #ef476f;
+$color-caribbean-green: #073b4c;
+$color-midnight-eagle-green: #084c61;
+$color-sage-green: #28666e;
+$color-indigo-yellow: #fedc97;
 $color-white: #fff;
 $color-black: #000;
 $color-gray: #777;
+$color-aspen-gold: #ffd662ff;
+$color-mellow-yellow: #ffe77aff;
+$color-lemon-tonic: #fcf951ff;
+$color-vibrant-yellow: #fddb27ff;
+$color-yellow: #ffd700;
+$color-orange-yellow: #e9b200;
+$color-lime-green: #ccf381;
+$color-raspberry: #8a307f;
+$color-maroon: #7a2048;
+$color-pale-yellow: #fbf8be;
+$color-safety-yellow: #edff00ff;
+$color-sandwisp-yellow: rgb(243, 240, 161);
+$color-peach: #eea47fff;
+$color-pink: #fbeaeb;
+$color-orange-porsche: rgb(230, 164, 90);
+$color-punch-red-orange: rgb(221, 85, 37);
+$color-red-tamarillo: rgb(140, 34, 18);
+$color-blue-east-bay: rgb(60, 72, 132);
+$color-yellow-medium-light: rgba(255, 255, 0, 0.5);
+$color-yellow-light: rgba(255, 255, 0, 0.3);
+$color-blue-light: rgba(0, 0, 255, 0.2);
+$color-navy-light: rgba(0, 0, 128, 0.1);
+$color-navy-medium-light: rgba(0, 0, 128, 0.5);
+$color-navy-small-light: rgba(0, 0, 128, 0.2);
+$color-navy-big-light: rgba(0, 0, 128, 0.7);
+$color-navy-dark: rgba(0, 0, 128, 1);
 
 $color-grey-light-1: #f7f7f7;
+
+// FONT
+
+$default-font-size: 1.6rem;
 
 //images
 $img: url(../../images/mumsydney.jpg);
@@ -37,6 +111,6 @@ $bg-linear-gradient: linear-gradient(
 
 //GRID
 
-$grid-width: 100rem; //1000px
-$gutter-vertical: 4rem; //40px
-$gutter-horizontal: 4rem; //40px
+$grid-width: 114rem; //1000px
+$gutter-vertical: 8rem; //40px
+$gutter-horizontal: 6rem; //40px

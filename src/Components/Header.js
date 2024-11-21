@@ -1,7 +1,8 @@
 import React from "react";
 // import classes from "../sassStyles/layouts/Header.module.scss";
 
-import logo from "../images/logo-yellow.jpg";
+import logo from "../images/logo-white.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,9 +22,9 @@ const Header = () => {
           </p>
         </h1>
 
-        <a href="#" className="btn__btn_white__btn_animated">
-          Dicover my Coding Tours
-        </a>
+        <Link to="#" className="btn  btn__white  btn__animated">
+          Learn More About my Coding
+        </Link>
       </div>
     </header>
   );
